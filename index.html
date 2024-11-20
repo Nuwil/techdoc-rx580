@@ -4,54 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a354655df9.js" crossorigin="anonymous"></script>
     <title>Tech Doc</title>
 </head>
 <body>
+
+    <!-- Home Section -->
     <div id="home">
         <div class="container">
-            <div class="nav-bar">
+            <nav class="nav-bar" aria-label="Main Navigation">
                 <h1>AMD</h1>
                 <ul>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="">FAQ</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
-            </div>
-            <div class="home-page">
-
+            </nav>
+            <div id="home-page" class="home-page">
+                <div class="text-content">
+                    <h2><span style="color: #ff0000;">AMD</span> Radeon RX 580 8GB</h2>
+                    <p>
+                        The AMD Radeon RX 580 8GB is a mid-range graphics card launched in 2017, built on the Polaris 20 architecture. 
+                        It features 2304 stream processors, 144 texture units, and 32 ROPs. The card has 8GB of GDDR5 memory, running at 2090 MHz 
+                        (8 Gbps effective), and a 256-bit memory interface.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="columns">
                 <div class="col-1">
-                       
+                    <h3>Our Vision</h3>
+                    <p>Vision Statement: AMD’s vision is to be a leader in innovation, customer satisfaction, and sustainable growth. The company envisions a future where it:</p>
+                    <ul>
+                        <li>Leads in Innovation: Fosters a culture of creativity and technological advancement, staying ahead of the curve in an ever-evolving industry.</li>
+                        <li>Delivers Customer-Centric Solutions: Understands and anticipates the needs of both individual consumers and enterprise clients, delivering products that offer superior performance, reliability, and value.</li>
+                        <li>Drives Sustainable Growth: Continues to expand its product lines and solutions, while prioritizing environmental sustainability and social responsibility.</li>
+                    </ul>
                 </div>
+                <br>
+                <br>
                 <div class="col-2">
-
+                    <h3>Our Mission</h3>
+                    <p>AMD’s mission is to “accelerate developer adoption” and “build great products that accelerate next-generation computing experiences.” This mission is reflected in the company’s focus on delivering leadership high-performance and adaptive computing solutions to advance data center AI, AI PCs, intelligent edge devices, gaming, and beyond.</p>
                 </div>
-                <div class="col-3">
-
-                </div>
+                <br>
+                <br>
             </div>
         </div>
     </div>
 
-    <div id="footer">
+    <!-- Footer Section -->
+    <footer id="footer">
         <div class="container">
             <div class="foot-columns">
                 <div class="foot-col-1">
-
+                    <h4>Contact Us</h4>
+                    <p>Email: investor.relations@amd.com</p>
+                    <p>Phone: +1 (408) 749-4000</p>
                 </div>
+                <h4>Follow Us</h4>
                 <div class="foot-col-2">
-
+                    <ul>
+                        <li><a href="https://www.facebook.com/AMD.Philippines/?brand_redir=23542086472" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://x.com/AMD" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/amd/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
